@@ -13,7 +13,9 @@ export class CardFormComponent implements OnInit {
     ])
   });
 
-  constructor() { }
+  constructor() {
+    console.log(this.cardForm.controls.name)
+   }
 
   ngOnInit(): void {
   }
